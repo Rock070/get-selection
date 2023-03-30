@@ -100,7 +100,7 @@ const list = [
 <style>
 .basic-button {
   @apply px-2 py-1 bg-gray-200 text-gray-700 rounded-md;
-  @apply hover:text-white hover:bg-slate-300;
+  @apply hover:text-white hover:bg-slate-500;
 }
 
 .section {
