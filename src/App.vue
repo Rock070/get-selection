@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script lang="ts">
 const initFakeValue = `
 在一個小鎮裡，有一個名叫傑克的男孩，他非常熱愛大自然和探險。他總是喜歡探索週圍的森林和山丘，尋找新的冒險和寶藏。
 
@@ -24,7 +24,9 @@ const initFakeValue = `
 
 在這個過程中，傑克也得到了許多回饋和鼓勵，這讓他更加堅定了自己的夢想和信念。他認為，每個人都有自己的冒險和探索，只要勇敢地面對挑戰和困難，就能找到屬於自己的寶藏和奇妙。他決定繼續探索世界，獲得更多的經驗和體悟，也希望能夠啟發更多人去追尋夢想和挑戰自己。
 `
+</script>
 
+<script setup lang="ts">
 const onAppendTextClick = (value: string) => {
   const newText = ` ${value} `
 
